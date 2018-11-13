@@ -32,6 +32,7 @@ pipeline {
         sh 'git checkout development'
         sh 'git pull origin'
         echo 'Checking Out Master'
+        sh 'git checkout master'
         
       }
      

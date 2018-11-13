@@ -32,11 +32,7 @@ pipeline {
         sh 'git checkout development'
         sh 'git pull origin'
         echo 'Checking Out Master'
-        sh 'git checkout master'
-        echo "Merging Development into Master"
-        sh 'git merge development'
-        echo "Git Push to Origin"
-        sh 'git push origin/master'
+        
       }
      
     }
